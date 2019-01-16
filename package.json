@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "kirillova irina",
   "main": "index.js",
-  "homepage": "https://irinakir.github.io/web_project/",
+  "homepage": "https://irinakir.github.io/web_project",
   "dependencies": {},
   "devDependencies": {
     "del": "^3.0.0",
@@ -21,8 +21,7 @@
     "devServer": "npx browser-sync start --server --tunnel"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://irinakir.github.io/web_project.git"
+    "type": "git"
   },
   "author": "kirillova irina",
   "license": "ISC",
