@@ -1,0 +1,38 @@
+/*Middle right part*/
+
+.right_middle-part span{
+  color:#c65353;
+  font-size:17px;
+}
+
+.language{
+  float:left;
+}
+
+.currency{
+  float:right;
+}
+
+.currency a{
+  text-decoration:none;
+  color:#4d2600;
+  border:1px #ecd9c6 solid;
+  font-size:17px;
+}
+
+.currency a:hover{
+  background:#ff9933;
+  border:1px #663300 solid;
+}
+
+.language a{
+  text-decoration:none;
+  color:#5c5c8a;
+  padding:2px;
+  font-size:18px;
+}
+
+.language a:hover{
+  background:#fff;
+  border:1px #e0e0eb solid;
+}

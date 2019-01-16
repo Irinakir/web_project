@@ -1,0 +1,51 @@
+/*zoom*/
+.button_zoom{
+	margin:30px;
+	cursor: -webkit-zoom-in;
+	cursor:zoom-in;
+	outline: none;
+}
+
+.image_zoom {
+	margin:30px;
+  outline: none;
+}
+
+.popup {
+	position: absolute;
+	height:150%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+	text-align:center;
+}
+
+.popup_bg {
+	background:rgba(0,0,0,0.3);
+	position:fixed;
+	z-index:50;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: auto;
+  height: auto;
+}
+
+.popup_img {
+	position: fixed;
+	z-index:60;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	max-height: 90%;
+	width:25%;
+	border-radius: 15px;
+}
+
+.popup_img {
+  pointer-events: none;
+}
+
+/**/

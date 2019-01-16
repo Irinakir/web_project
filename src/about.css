@@ -1,0 +1,93 @@
+/*--About--*/
+.about{
+  width:100%;
+  clear:both;
+  padding:0 20px 0 10px;
+ }
+
+.about .title,
+.about a,
+.right-part-box .title{
+   color:#c65353;
+   font-size:21px;
+}
+
+.about a{
+  font-size:0.8em;
+  text-decoration:none;
+  list-style:none;
+}
+
+.about_box_right{
+  padding:0;
+  marging:0;
+}
+
+img.right{
+ float:right;
+ width:110px;
+ padding:0 0 0 20px;
+}
+
+.bottom-part_right{
+  height:10px;
+  padding: 10px 0 15px 0;
+  width:100%;
+  border-block-end:5px double #b2b2b2  ;
+  writing-mode: horizontal-tb;
+}
+
+ .bottom-part_right{
+  height:10px;
+  padding:8px;
+  width:100%;
+  border-block-end:5px double #b2b2b2  ;
+  writing-mode: horizontal-tb;
+}
+
+.middle_part .right_middle-part{
+  width:40%;
+  float:left;
+  padding:10px 20px;
+  font-size: 0.8em;
+  /*background: #f0f0f5;*/
+}
+
+.about p{
+  font-size:14px;
+}
+
+/*right-part-box*/
+img .about{
+  padding:0;
+  float:right;
+}
+
+.right-part-box{
+  width:50%;
+  float:left;
+  padding:0;
+  marging:0;
+}
+
+.Promotions{
+  width:200%;
+}
+
+/*Page about*/
+#div_about {
+ display: inline-block;
+ text-align: center;
+ margin: 30px;
+}
+
+#p_about {
+  text-indent: 40px; /* Отступ первой строки */
+  text-align: justify; /* Выравнивание по ширине */
+  font-family: "PT Sans", Arial, Helvetica, sans-serifbody;
+  font-size: 12pt; /* Размер шрифта  */
+  margin:0;
+  padding:0;
+}
+
+/*end page about*/

@@ -1,0 +1,164 @@
+/*Middle left part*/
+.left_middle-part{
+  width:60%;
+  background: linear-gradient(65deg, #fff, #fff2e6);
+  border-right:1px #b2b2b2 dashed;
+  padding:10px 20px;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction:column;
+  /* justify-content: space-between;*/
+  justify-content:  stretch;
+}
+
+.left_middle-part_flower{
+  background: linear-gradient(65deg, #fff, #fff2e6);
+  /* border-right:1px #b2b2b2 dashed;*/
+  padding:10px 20px;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction:column;
+  /* justify-content: space-between;*/
+  justify-content:  stretch;
+}
+
+.new_part_with_prod_flower{
+  /* border-right:1px #b2b2b2 dashed;*/
+  padding:20px;
+  margin:0px;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin:0px;
+  height:auto;
+}
+
+#flower-table {
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+#flower-table td {
+  height:auto;
+  padding:20px;
+  margin:20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+  #flower-table tr{
+  text-align: center;
+}
+
+.prod_img_flower{
+  float:left;
+  padding:10px 20px 0 0;
+  width:15%;
+  font-size:12px;
+  height:auto;
+}
+
+.right_middle-part{
+  width:40%;
+  padding:10px 20px;
+  font-size: 0.8em;
+  /*background: #f0f0f5;*/
+}
+
+.title_middle{
+  color:#ff0000;
+  padding:0px 0 0 30px;
+  float:left;
+  font-size:20px;
+  margin:30px 0 0 0;
+}
+
+.middle_part_flower{
+  grid-area: middle_part;
+  background: white;
+  display: flex;
+  width:60%;
+  flex-direction: row;
+  background: linear-gradient(65deg, #fff, #fff2e6);
+  border-right:1px #b2b2b2 dashed;
+  padding:10px 20px;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction:column;
+  /* justify-content: space-between;*/
+  justify-content:  stretch;
+}
+
+.title_middle_flower{
+  color:#ff0000;
+  padding: 30px;
+  font-size:20px;
+  margin:30px 0 0 0;
+}
+
+.title_icon{
+  float:left;
+  padding:0;
+}
+
+.part_with_prod {
+  border-left: 1px solid #e0e0eb;
+  padding: 20px 10px;
+  /*  marging: 10px;* /
+  box-shadow: 1px 1px 8px 1px #e0e0eb;
+  /* width:80%;*/
+  float:left;
+  width:73%;
+  height:auto;
+}
+
+.prod_title_middle{
+  color:#ac3939;
+  font-size: 18px;
+}
+
+.prod_text_middle{
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 12px;
+}
+
+.prod_text_middle_price{
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 20px;
+}
+
+span.red{
+  color:#990000;
+}
+
+.price{
+  font-size:14px;
+  padding:0 0 0 15px;
+  margin:2px 0 5px 0;
+}
+
+span.colors{
+  padding:2px 2px 0 2px;
+}
+
+.zoom_img{
+  display: flex;
+  flex-direction:column;
+  justify-content:  center;
+  text-align: right;
+  align-items:center;
+}
+
+.prod_price{
+  padding:20px 20px 20px 0;
+  margin:20px 10px 0 30px;
+  display: flex;
+  flex-direction:row;
+  justify-content:  stretch;
+}
+
+.more_button{
+	outline: none;
+	border:0;
+}

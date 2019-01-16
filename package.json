@@ -1,0 +1,32 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "kirillova irina",
+  "main": "index.js",
+  "homepage": "https://github.com/Irinakir/myproject",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^5.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "scripts": {
+    "buildjs": "npx browserify src/index.js -o build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devServer": "npx browser-sync start --server --tunnel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irinakir/myproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irinakir/myproject/issues"
+  }
+}

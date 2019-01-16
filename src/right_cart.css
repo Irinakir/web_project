@@ -1,0 +1,40 @@
+/*Middle right part cart*/
+
+.cart,
+.cart div
+{
+  float:left;
+  margin:10px 10px 5px 0;
+  padding:0 0 2px 0;
+  color:#c65353;
+  font-size:15px;
+}
+
+.right_middle-part .title_icon{
+   float:left;
+}
+
+ .cart div.cart_content{
+  color:#33334d;
+}
+
+.cart_content{
+  float:left;
+  padding:3px;
+  color:#33334d;
+  border:1px #eeedee solid;
+  margin:10px 0 0 15px;
+}
+
+ a.view_cart{
+ display:block;
+ float:left;
+ margin:12px 0 0 10px;
+ color:#990000;
+}
+
+.middle_part .right_middle-part{
+  float:left;
+  padding:10px 20px;
+  font-size: 1.2em;
+}

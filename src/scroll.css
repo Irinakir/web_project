@@ -1,0 +1,72 @@
+/*Scroll*/
+
+
+.pager__info{
+    visibility: hidden;
+}
+
+.pager__controls
+{
+    display: flex;
+    align-items: center;
+  justify-content:center;
+  padding:40px 0 0 20px;
+  font-size:17px;
+}
+
+.pager__prev,
+.pager__next
+{
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.pager__prev[href],
+.pager__next[href]
+{
+    color: #333;
+}
+
+.pager__prev[href]:hover,
+.pager__next[href]:hover
+{
+    color: #800000;
+}
+
+.pager__list
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0 .6em;
+    padding: 0;
+}
+
+.pager__list-item:not(:first-child)
+{
+    margin-left: 10px;
+}
+
+.pager__page
+{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    min-width: 30px;
+    text-align: center;
+}
+
+.pager__page:hover,
+.pager__page--current
+{
+  box-shadow: 2px 2px 10px 0 #000;
+  background: #800000;
+  color: #fff;
+  border-radius:15px;
+}
+.hidden
+{
+  display: none;
+}

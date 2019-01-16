@@ -1,0 +1,331 @@
+body{
+  display: grid;
+  margin: 0;
+  padding: 0 ;
+  background: silver;
+  color: black;
+  grid-template-columns: 1fr ;
+  grid-template-rows: min-content auto min-content;
+  grid-template-areas: "first_part"
+      "middle_part" "middle_part"
+      "footer"  ;
+  width: 100%;
+  font-size: 26px;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+}
+
+.first_part{
+  grid-area: first_part;
+  /*background: silver url(https://image.freepik.com/free-photo/no-translate-detected_1220-3310.jpg);*/
+  background: silver url(../pic/fon.jpg);
+	/*opacity:0.5;*/
+  display: flex;
+  font-size: 1.5em;
+  padding:0;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  flex-direction: column;
+  align-items: stretch;
+  border-block-end:1px #b2b2b2 dashed;
+}
+
+.top_img{
+  justify-content: flex-start;
+  align-items: stretch;
+  marging: 0;
+  padding: 0 35px 15px ;
+  text-align: left;
+}
+
+.menu{
+  justify-content: flex-start;
+  align-items: stretch;
+  marging: 0;
+  padding: 0 35px;
+  text-align: left;
+}
+
+.menu ul li.selected a{
+  height:27px;
+  display:block;
+  padding:0px 10px 0 10px;
+  margin:0 5px 0 5px;
+  float:left;
+  text-decoration:none;
+  text-align:center;
+  color:#fff;
+  font-size:13px;
+  line-height:27px;
+  /* background:#ff0000;*/
+  background: #990000;
+  border-radius: 5px;
+}
+
+.footer{
+ grid-area: footer;
+ /* background: silver url(https://image.freepik.com/free-vector/no-translate-detected_1017-16340.jpg);*/
+ /*background: silver url(pic/fon2.jpg);*/
+ background: url(../pic/fon2.jpg);
+ height:80px;
+ border-top:1px #b2b2b2 dashed;
+}
+
+.footer_left{
+ float:left;
+ padding:0 15px;
+}
+
+.menu-footer{
+ float:right;
+ padding:0 15px;
+}
+
+.footer a{
+  text-decoration:none;
+  padding:0 5px 0 5px;
+  color: #666699;
+  font-size: 16px;
+}
+
+.menu{
+  width:700px;
+  height:40px;
+  margin:55px 0 0 35px;
+  /*background: silver url(https://image.freepik.com/free-vector/no-translate-detected_1017-16340.jpg);*/
+  background: silver url(../pic/fon2.jpg);
+}
+
+.menu ul{
+  display:block;
+  list-style:none;
+  padding:0 10px;
+  margin:0px;
+}
+
+.menu ul li{
+  display:inline;
+  padding:0px;
+  margin:0px;
+}
+
+.menu ul li a{
+  height:30px;
+  display:block;
+  padding:0px 15px;
+  margin:0;
+  float:left;
+  text-decoration:none;
+  text-align:center;
+  color:#666699;
+  /*  color:#fff;*/
+  font-size:12px;
+  line-height:30px;
+}
+
+.menu ul li a:hover{
+  /*  background:url(https://www.free-css.com/assets/files/free-css-templates/preview/page92/flower-shop/images/logo.gif); */
+  /*background:url(pic/menu_bg.jpg) no-repeat center;*/
+  /*background:#ff0000;*/
+  background: #e60000;
+  border-radius: 5px;
+  color:#fff;
+}
+
+.middle_part{
+  grid-area: middle_part;
+  background: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.more{
+  color:#ac3939;
+  float:right;
+  text-decoration:none;
+  font-size:11px;
+  padding:0px 15px 0 0 ;
+  outline : none;
+}
+
+.prod_img{
+  float:left;
+  padding:10px 20px 0 0;
+  width:25%;
+  height:auto;
+}
+
+.prod{
+  padding:10px 0 5px 0;
+  margin:20px 10px 0 0;
+  clear:both;
+}
+
+.bottom-part{
+  height:20px;
+  border-block-end:1px #b2b2b2 dashed;
+}
+
+.new_prod {
+  clear:both;
+  padding:0;
+  margin:0px;
+  display:flex;
+  text-align:center;
+  justify-content: space-between;
+}
+
+.new_prod_part a{
+  text-decoration:none;
+  color:#666699;
+  font-size: 18px;
+  list-style:none;
+}
+
+.new_prod{
+  padding:10px
+}
+
+.new_prod_part-img td{
+  height:auto;
+  width:70%;
+}
+
+.new_prod_part-img{
+  height:auto;
+  width:70%;
+  text-align:center;
+  position:relative;
+}
+
+img.product{
+  padding:0;
+}
+
+.new_icon{
+  position:absolute;
+  top:0px;
+  right:0;
+  z-index:20;
+}
+
+.new_prod_part {
+  /*text-align:center;
+  /*padding:30px;*/
+}
+
+.new_prod_part-img{
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px 1px #e0e0eb;
+  border-left: 1px solid #e0e0eb;
+  padding: 10px ;
+  margin: 20px 0 0 0;
+}
+
+.new_part_with_prod {
+  width: 150px;
+  float:left;
+  height:auto;
+}
+
+.Promotions .new_prod_part-img{
+  float:left;
+}
+
+.Promotions .new_part_with_prod{
+  clear:both;
+  padding:10px;
+  margin:0px;
+  text-align:center;
+}
+
+img.thumb{
+  width:100%;
+}
+
+.Promotions .new_part_with_prod a{
+  text-decoration:none;
+  color:#666699;
+  font-size: 13px;
+  list-style:none;
+  text-align:center;
+}
+
+.right-part-box .title{
+  padding:15px 0 0 0 ;
+  marging:0;
+}
+
+ul.list{
+  clear:both;
+  padding:10px 0 0 20px;
+  margin:0px;
+  font-size:14px;
+}
+
+ul.list li{
+/*list-style:none;*/
+  padding:2px 0 2px 0;
+}
+
+ul.list li a{
+  list-style-type:circle ;
+  text-decoration:none;
+  color:#000000;
+  padding:0 0 0 5px;
+}
+
+ul.list li a:hover{
+  text-decoration:underline;
+  color:#1a1aff;
+}
+
+.middle_words{
+ font-size: 0.5em;
+ padding:0;
+}
+
+
+.prod_det_box{
+  float:left;
+  border-left: 1px solid #e0e0eb;
+  padding: 20px 10px;
+  marging: 10px;
+  box-shadow: 1px 1px 8px 1px #e0e0eb;
+   /* width:80%;*/
+  border-radius:15px;
+  float:left;
+  width:73%;
+  height:auto;
+  /* padding: 10px ;
+  margin: 20px;*/
+  position:relative;
+}
+
+.special_icon{
+  position:absolute;
+  top:0px;
+  _top:6px;
+  right:2px;
+  z-index:30;
+  font-size:15px;
+}
+
+.new_prod_flower{
+  clear:both;
+  padding:20px;
+  margin:20px;
+  display:flex;
+  text-align:center;
+  justify-content: center;
+}
+
+#all_products{
+  padding:15px;
+  margin:15px;
+}

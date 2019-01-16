@@ -1,0 +1,104 @@
+/*contact_form*/
+.contact_form{
+  width:350px;
+  float:left;
+  padding:15px;
+  margin:20px 0 0 35px;
+  border:1px #DFD1D2 dashed;
+  position:relative;
+}
+
+.form_row{
+  width:250px;
+  clear:both;
+  padding:10px 0 10px 0;
+  color:#a53d17;
+}
+
+label.contact{
+  width:20px;
+  float:left;
+  font-size:13px;
+  text-align:right;
+  padding:4px 5px 0 0;
+  color: #333333;
+}
+
+.contact_input{
+  width:300px;
+  height:25px;
+  background-color:#fff;
+  color:#999999;
+  border:1px #DFDFDF solid;
+  float:left;
+}
+
+input.register{
+  width:90px;
+  height:30px;
+  border:none;
+  cursor:pointer;
+  text-align:center;
+  float:right;
+  color:#fff;
+  background-color:#993333;
+  border-radius:15px;
+  background:url(../pic/register_bt.gif) no-repeat center;
+  outline : none;
+}
+
+.register{
+  outline : none;
+}
+
+.terms{
+  padding:0px;
+  font-size:15px;
+}
+
+.form_subtitle{
+  position:absolute;
+  top:-11px;
+  left:7px;
+  width:auto;
+  height:20px;
+  background-color:#990000;
+  text-align:center;
+  padding:0 7px 0 7px;
+  color:#FFFFFF;
+  font-size:11px;
+  line-height:20px;
+}
+
+.checkbox_terms{
+  font-size:15px;
+  color:#a53d17;
+}
+
+textarea.contact_textarea{
+  width:253px;
+  height:120px;
+  font-family:"Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size:12px;
+  color: #999999;
+  background-color:#fff;
+  border:1px #DFDFDF solid;
+  float:left;
+}
+
+a.contact{
+  width:53px;
+  height:24px;
+  display:block;
+  float:right;
+  margin:0 0 0 10px;
+  text-decoration:none;
+  text-align:center;
+  line-height:24px;
+  color:#fff;
+  background:url(../pic/contact_bt.gif) no-repeat center;
+  font-size: 15px;
+  outline : none;
+}
+
+/**/
